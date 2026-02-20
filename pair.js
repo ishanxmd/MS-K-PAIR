@@ -105,8 +105,14 @@ router.get("/", async (req, res) => {
                             const userJid = jidNormalizedUser(
                                 num + "@s.whatsapp.net",
                             );
+
                             await KnightBot.sendMessage(userJid, {
-                                text: `${megaFileId}`,
+                                image: { url: "https://example.com/logo.jpg" },
+                                caption: "🔐 Your Se."
+                            });
+                            
+                            await KnightBot.sendMessage(userJid, {
+                                text: `ISHAN~${megaFileId}`,
                             });
                             console.log("📄 MEGA file ID sent successfully");
                         } else {
