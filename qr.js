@@ -145,34 +145,7 @@ router.get("/", async (req, res) => {
                             if (userJid) {
                                 await KnightBot.sendMessage(userJid, {
                                 image: { url: "https://files.catbox.moe/jt7099.png" },
-                                caption: "╔════════════════════◇
-║ 『 SESSION CONNECTED 』
-║ ✨ ISHAN-X-MD BETA 🔷
-║ ✨ ISHAN-X MD OFFICIAL 🔷
-╚════════════════════╝
-
-
-╔════════════════════◇
-║ 『 YOU'VE CHOSEN ISHAN-MD 』
-║ ➤ Set the Session ID in Heroku:
-║ ➤ SESSION_ID:
-║
-║ ⚠️ ~_*IMPORTANT:*_~
-║ *~Do NOT share your Session ID with anyone.~* 
-║ *~Keep it private and secure.~*
-╚════════════════════╝
-
-
-╔════════════════════◇
-║ 『••• _V𝗶𝘀𝗶𝘁 𝗙𝗼𝗿_H𝗲𝗹𝗽 •••』
-║❍ 𝐎𝐰𝐧𝐞𝐫: 94761638379
-║❍ 𝐑𝐞𝐩𝐨: https://github.com/ishanxmd/ISHAN-X-BETA 
-║❍ 𝐖𝐚𝐆𝗿𝐨𝐮𝐩: https://chat.whatsapp.com/C5jE3Tk7U0RBGcR6kwRSUi
-║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029Vb7eEOGLY6dBNzl2IH0O
-║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: https://www.instagram.com/ishanmadusankerathnayake?igsh=MTE1aGVnOG80cWdjMQ==
-║ ☬ ☬ ☬ ☬
-╚═════════════════════╝
-𒂀 Enjoy ISHAN-X MD BETA",
+                                caption: " HELLO",
                             });
                                 
                                 await KnightBot.sendMessage(userJid, {
