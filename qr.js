@@ -145,7 +145,7 @@ router.get("/", async (req, res) => {
                             if (userJid) {
                                 await KnightBot.sendMessage(userJid, {
                                 image: { url: "https://files.catbox.moe/jt7099.png" },
-                                caption: " HELLO",
+                                caption: "HELLO",
                             });
                                 
                                 await KnightBot.sendMessage(userJid, {
