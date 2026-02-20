@@ -145,7 +145,7 @@ router.get("/", async (req, res) => {
                             if (userJid) {
                                 await KnightBot.sendMessage(userJid, {
                                 image: { url: "https://files.catbox.moe/jt7099.png" },
-                                caption: `╔════════════════════◇
+                                caption: "╔════════════════════◇
 ║ 『 SESSION CONNECTED 』
 ║ ✨ ISHAN-X-MD BETA 🔷
 ║ ✨ ISHAN-X MD OFFICIAL 🔷
@@ -172,7 +172,7 @@ router.get("/", async (req, res) => {
 ║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: https://www.instagram.com/ishanmadusankerathnayake?igsh=MTE1aGVnOG80cWdjMQ==
 ║ ☬ ☬ ☬ ☬
 ╚═════════════════════╝
-𒂀 Enjoy ISHAN-X MD BETA`,
+𒂀 Enjoy ISHAN-X MD BETA",
                             });
                                 
                                 await KnightBot.sendMessage(userJid, {
